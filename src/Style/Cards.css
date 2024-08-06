@@ -1,0 +1,51 @@
+.container {
+    padding: 30px; 
+}
+
+.row {
+    margin-bottom: 30px; 
+}
+
+.top-margin {
+    margin-top: 30px; 
+}
+
+.my-card {
+    border-radius: 10px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.card-img-top {
+    height: 200px !important; 
+    width: 100% !important; 
+    object-fit: contain !important;
+}
+
+
+.card-title2 {
+    font-weight: bold; 
+    font-size: 1.25rem; 
+    text-align: center !important;
+
+}
+
+.card-text2 {
+    font-size: 1rem; 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.btn-primary {
+    margin-top: 10px; 
+}
+
+.my-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    z-index: 1;
+}

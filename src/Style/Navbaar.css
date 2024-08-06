@@ -1,0 +1,10 @@
+.logo{
+height: 3rem;
+width: 12rem;
+}
+
+.nav-link-bold {
+    font-weight: 700;
+    font-size: .875rem;
+
+  }
